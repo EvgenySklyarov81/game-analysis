@@ -1,0 +1,11 @@
+name: game_analysis_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas<3.0
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyterlab
